@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+{{ if not .Params.static }}
+<div id="archive-warning" class="warning">
+    <strong>Achtung:</strong> Dieser Artikel ist (möglicherweise) veraltet und wird ausschließlich zu Archivierungszwecken angezeigt. Professor PC wird nicht mehr betrieben, von daher werden Artikel auch nicht mehr aktualisiert. <a href="{{ .Site.BaseURL }}">Weitere Informationen</a>
+</div>
+{{ end }}
+<main>
+    <article class="main-article">
+        <h1>{{ .Title }}</h1>
+        <aside id="main-article-meta">
+            {{ if not .Params.static }}Veröffentlicht: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ end }}
+        </aside>
+
+        <div id="main-article-content" class="content">
+            {{ .Content }}
+        </div>
+    </article>
+</main>
+
+{{ partial "footer" . }}

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+h1, h2, h3 { line-height: 1.2; }
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.2em; }
+h1 {
+    margin-bottom: 0;
+}
+
+a, a:visited, a:active {
+    color: #009bc2;
+    text-decoration: none;
+}
+a:hover { color: #007598; }
+
+.container {
+    width: 80vw;
+    max-width: 750px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table thead th, table tbody td {
+    padding: 10px;
+}
+
+pre { overflow: auto; }
+
+footer {
+    border-top: 1px solid rgba(186, 186, 186, 0.51);
+    padding: 10px 0;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+#main-article-meta { font-size: 0.8em; }
+
+figcaption { font-size: 0.8em; }
+figure > * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.warning {
+    margin-top: 20px;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    padding: 7px 20px;
+}
+
+/* Let's rick the rolls */
+.rr {
+    color: #333 !important;
+}

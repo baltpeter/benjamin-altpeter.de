@@ -1,0 +1,15 @@
+{{ partial "header" . }}
+
+<h1>Seite nicht gefunden</h1>
+
+<p>Die angeforderte Seite wurde leider nicht gefunden.</p>
+<p>Professor PC wird nicht weiter betrieben und befindet sich im Archivmodus, von daher ist es möglich, dass gewisse Artikel nicht mehr verfügbar sind.</p>
+<p>Wenn die Seite vorher jedoch existiert hat, findet sich wahrscheinlich noch eine Kopie bei <a id="archive-org-link">archive.org</a> oder <a id="archive-is-link">archive.is</a>.</p>
+
+<script>
+window.onload = function () {
+    document.getElementById("archive-org-link").href = "https://web.archive.org/web/*/" + location.href;
+    document.getElementById("archive-is-link").href = "https://archive.fo/" + location.href;
+}
+</script>
+{{ partial "footer" . }}
