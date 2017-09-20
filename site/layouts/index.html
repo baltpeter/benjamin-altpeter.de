@@ -1,11 +1,66 @@
 {{ partial "header" . }}
 
 <main>
-    <article class="main-article">
-        <div id="main-article-content" class="content">
-            {{ .Content }}
+    <div id="home-hero" class="h-card vcard">
+        <div id="home-hero-main">
+            <div id="home-hero-photo">
+                <img src="https://secure.gravatar.com/avatar/0e97ca279ec182fe3dc874682f03547e?s=256" class="u-photo photo" alt="Photo of Benjamin Altpeter">
+            </div>
+            <div id="home-hero-heading">
+                <div id="home-hero-name"><h1 class="p-name fn n"><span class="p-given-name given-name">Benjamin</span> <span class="p-family-name family-name">Altpeter</span></h1></div>
+                <div id="home-hero-bio">Student of CompSci at TU Braunschweig in Germany. Mainly working with PHP, Qt and Objective C. Got fascinated by programming before high school—still am.</div>
+            </div>
         </div>
-    </article>
+
+        <div id="home-hero-contact">
+            <div class="contact-col">
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/home.svg"></div>
+                    <p class="p-adr adr"><span class="p-street-address street-address">Schreinerweg 6</span><br><span class="p-postal-code postal-code">38126</span> <span class="p-locality locality">Braunschweig</span><br><span class="p-country-name country-name">Germany</span></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/vcard.svg"></div>
+                    <p><a href="{{ .Site.BaseURL }}vCard.vcf">download vCard</a></p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/mail.svg"></div>
+                    <p><a href="mailto:hi@bn.al" class="u-email email">hi@bn.al</a> (<a href="https://keybase.io/baltpeter">PGP key</a>)</p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/phone.svg"></div>
+                    <p class="p-tel tel"><span class="type" style="display:none;">Voice</span><span class="value">+49 531 615 4 710</span></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/fax.svg"></div>
+                    <p class="p-tel tel"><span class="type" style="display:none;">Fax</span><span class="value">+49 531 615 4 288</span></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/mobile.svg"></div>
+                    <p class="p-tel tel"><span class="type" style="display:none;">Cell</span><span class="value">+49 176 913 77 604</span></p>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/twitter.svg"></div>
+                    <p><a href="https://twitter.com/baltpeter">baltpeter</a></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/facebook.svg"></div>
+                    <p><a href="https://www.facebook.com/benjamin.altpeter">benjamin.altpeter</a></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/googleplus.svg"></div>
+                    <p><a href="https://plus.google.com/+BenjaminAltpeterDE">+BenjaminAltpeterDE</a></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon"><img src="{{ .Site.BaseURL }}icons/github.svg"></div>
+                    <p><a href="https://github.com/baltpeter">baltpeter</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 {{ partial "footer" . }}

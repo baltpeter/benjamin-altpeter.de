@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "de-de" }}">
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,4 +11,16 @@
     {{ .Hugo.Generator }}
 </head>
 <body>
+<header>
+    <div class="container">
+        <div id="logo"><a href="{{ .Site.BaseURL }}">Benjamin Altpeter</a></div>
+        <nav>
+            <div id="menu-items">
+                <a href="{{ .Site.BaseURL }}">Home</a>
+                <a href="{{ .Site.BaseURL }}blog">Blog</a>
+                <a href="{{ .Site.BaseURL }}contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header>
 <div class="container">

@@ -5,7 +5,7 @@ body {
     font-size: 18px;
     font-family: Georgia, serif;
     color: #333;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
 }
 
 h1, h2, h3 { line-height: 1.2; }
@@ -15,11 +15,11 @@ h1 {
     margin-bottom: 0;
 }
 
-a, a:visited, a:active {
-    color: #009bc2;
+a, a:visited {
+    color: #00529B;
     text-decoration: none;
 }
-a:hover { color: #007598; }
+a:hover, a:active, a:focus { color: #007ed7; }
 
 .container {
     width: 80vw;
@@ -41,6 +41,36 @@ table thead th, table tbody td {
 
 pre { overflow: auto; }
 
+header {
+    background-color: #00529B;
+    color: #ffffff;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+
+    padding: 25px 0;
+    margin-bottom: 15px;
+}
+header .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#logo {
+    position: absolute;
+    left: 0;
+}
+#logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+nav a, nav a:visited {
+    margin-left: 0.75em;
+    color: #BDE5F8;
+}
+nav a:hover, nav a:active, nav a:focus { color: #8eb0c1; }
+
 footer {
     border-top: 1px solid rgba(186, 186, 186, 0.51);
     padding: 10px 0;
@@ -57,14 +87,39 @@ figure > * {
     text-align: center;
 }
 
-.warning {
-    margin-top: 20px;
-    color: #9F6000;
-    background-color: #FEEFB3;
-    padding: 7px 20px;
-}
+/* Home */
 
-/* Let's rick the rolls */
-.rr {
-    color: #333 !important;
+#home-hero-main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 20px;
+    align-items: center;
+
+    padding: 20px;
+}
+#home-hero-photo { line-height: 1; }
+#home-hero-photo img { border-radius: 50%; }
+#home-hero-name h1 {
+    font-size: 3.5em;
+    font-weight: normal;
+    line-height: 1;
+    padding-bottom: 15px;
+    margin: 0;
+}
+#home-hero-bio { margin-left: 5px; }
+
+#home-hero-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 0 20px;
+}
+.contact-block {
+    display: grid;
+    grid-template-columns: 16px auto;
+    grid-gap: 10px;
+}
+.contact-block p {
+    margin-top: 0;
+    margin-bottom: 5px;
 }

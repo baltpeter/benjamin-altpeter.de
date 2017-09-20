@@ -1,5 +1,6 @@
-baseurl = "https://prof-pc.de/"
+#baseurl = "https://beta.benjamin-altpeter.de/"
+baseurl = "http://localhost:3000/"
 languageCode = "de-de"
-title = "Professor PC-Archiv"
-disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
+title = "Benjamin Altpeter"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLs = true

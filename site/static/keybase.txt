@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/baltpeter
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://benjamin-altpeter.de
+  * I am baltpeter (https://keybase.io/baltpeter) on keybase.
+  * I have a public key with fingerprint 0903 DEF9 C683 8D77 4EC7  3A8E 580B 1C78 00EB 2372
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0903def9c6838d774ec73a8e580b1c7800eb2372",
+            "host": "keybase.io",
+            "key_id": "580b1c7800eb2372",
+            "kid": "0101f66fed184f363edc3b20f87f5066690142b61a6542dc6b01e4c2ee78418ab8540a",
+            "uid": "d5e5dc84615d65af7ca665c470210a00",
+            "username": "baltpeter"
+        },
+        "service": {
+            "hostname": "benjamin-altpeter.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1420645884,
+    "expire_in": 157680000,
+    "prev": "3c6ffec889ac2178fa0e2217ecb9c704cbcba79ff770921e75c076bdd6bfce58",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owFtkmtMFFcUgBdUKGurLqSFKk3rILaVLdyZndfuxtRYKabSILUSC6zbmTt3lgF2
+dtkdEErAFFG6QQK1iJu4JUhqAUvDIwRqeBkhjULBV0BTUlpMH2gpVI2V2iidIeVf
+f917z/3Od3LOvTXPrdLpgyLzWxZmwv9YCBq9w+ve/zotuBjjXUIRZinGctDyIkqy
+A3ncHklWMAsGzMAkINEMadbECgxDIsiYOBZRLOBxyLAAIJ4wMQRmxLJcXi1D1fCc
+F8VLLjWmHuySoEb/h89ZvgA4wEWaFpGAs6Rook1IgCaeACLLiBSgadoMcJLgaZyj
+KZIQIM0DHJGQQIhhSZzleJYiAafq8pd1AoUoAbIkjVMCTXEiAzmapiDJAAIHHAAa
+6EUemXMilea5XMWNFOTBSoyYGi6QINJmoLWygiA5m3NK8hsraLyAVInb41Jc0JWr
+ElmK4vZaNINS5NZSDiHe/p/MzkuyoA5UzShAHq/kkjELrpJQkTS72hmgSYplSSOG
+Ct2SB9kljaAYWp0UAFodVKAqTZAWRQRZ1sxBAmdYkQOIUDcI8mbIABLykOcYsygy
+DDATOGIoCBiaFwSaF6H6WJjWXp7swixqJYVzqErvWskhc0q+B2Elel9w9GpdkF4X
+siZY+xQ6fdiGlZ+yLXn90mFA5LVmOPvTkhJTzhfNRvffjirqLgvf1PT9k9DAa28e
+bBTzio80VNWMH93+j82X6XfuH+z96diPl5sC/eW+rLLq/cMg8U8Ce5cJFKb3PewI
+n8PaKm1W4cvU1i0jjx3G0sUHv+9KTWmkiJ6542hLRuWZooSuwRlW9zS785klfddA
+8mGn/8xgRYj/5MhH6d+82kJefruOfbp1feQ85f3klgEH35afSJj229adC/3ttPNQ
+7GxCdUVu9lINNRd3Zab//gXHaP9nd0+UFq8eb0+JifqKr9/6qFzG4qpsEW0VwYVh
+8bIhfrruZs6nsaaX8nq333sHXcsKv1a17z08uf71hZ/B9Ut9bx0YGyY+LB1rvN2z
+Cp+YauUK/b15tSMTt/KR1L5nJm58diqD3xybqP/VXsI/2nx6PrfZ0rl7Yk3D0GTM
++aS2iAHdgQsbO6ynjkUYQ7q7P7hzNspy07BzCPU2HI1aTAtpz1y0HgwE7ifN724b
+U/YZ6YtNsYaytkrMetG5c2/YaGcVGVnP+O6abB2Ph747cnzTWk9y82B67F5rywt9
+58qFgYeGzHXXXwx/Psa9A+bUTW4sGPkiYvrZ/MCV6h3WgdDhq3zox2cd3Tdu/F07
+WVLVvK3p5D3/X/YfHkTX97yc6uvyPvEu1cYYLLo+e8AOX4nu+DzqVOrVS1OLIZU2
+c/LgL/8C
+=/lPc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/baltpeter
+
+==================================================================
+

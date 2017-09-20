@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Altpeter;Benjamin
+FN:Benjamin Altpeter
+PHOTO;JPEG:https://benjamin-altpeter.de/photo.jpg
+BDAY:19980121
+ADR;HOME:;;Schreinerweg 6;Braunschweig;Niedersachsen;38126;Germany
+TEL;HOME;PREF:+49 531 615 4 710
+TEL;HOME;FAX:+49 531 615 4 288
+TEL;CELL:+49 176 913 77 604
+EMAIL:hi@bn.al
+URL:https://benjamin-altpeter.de
+KEY;PGP:https://benjamin-altpeter.de/00EB2372.asc
+SOURCE:https://benjamin-altpeter.de/vcard.vcf
+REV:20170920T223141Z
+END:VCARD
