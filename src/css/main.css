@@ -5,7 +5,7 @@ body {
     font-size: 18px;
     font-family: Georgia, serif;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
 }
 
 h1, h2, h3 { line-height: 1.2; }
@@ -27,8 +27,10 @@ a:hover, a:active, a:focus { color: #007ed7; }
     margin: auto;
 }
 
-img {
-    max-width: 100%;
+img { max-width: 100%; }
+img.image {
+    display: block;
+    margin: auto;
 }
 
 table {
@@ -39,7 +41,7 @@ table thead th, table tbody td {
     padding: 10px;
 }
 
-pre { overflow: auto; }
+pre { white-space: pre-wrap; }
 
 header {
     background-color: #00529B;

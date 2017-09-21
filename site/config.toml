@@ -4,3 +4,9 @@ languageCode = "de-de"
 title = "Benjamin Altpeter"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLs = true
+PygmentsCodeFences = true
+pygmentsstyle = "default"
+pygmentsCodeFencesGuessSyntax = true
+
+[permalinks]
+    post = "/:title/"
