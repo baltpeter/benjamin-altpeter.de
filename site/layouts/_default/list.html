@@ -1,6 +1,8 @@
 {{ partial "header" . }}
 
 <main>
+    <h1>Blog posts</h1>
+
     {{ range .Paginator.Pages }}
     {{ partial "summary.html" . }}
     {{ end }}

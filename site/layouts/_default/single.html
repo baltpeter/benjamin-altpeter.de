@@ -5,7 +5,7 @@
     {{ end }}
     <article class="main-article">
         <h1>{{ .Title }}</h1>
-        <aside id="main-article-meta">
+        <aside class="main-article-meta">
             {{ if not .Params.static }}Published: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ end }}{{ if .Params.last_edited }}, last edited: <span class="meta-last-edited"><time>{{ dateFormat "2006-01-02T15:04" .Params.last_edited }}</time></span>{{ end }}
         </aside>
 

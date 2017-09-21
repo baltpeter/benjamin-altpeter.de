@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+
+<main>
+    <h1>Publications</h1>
+
+    {{ range $.Site.Data.publications }}
+        {{ partial "publication.html" . }}
+    {{ end }}
+</main>
+
+{{ partial "footer" . }}

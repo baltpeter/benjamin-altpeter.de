@@ -11,9 +11,6 @@ body {
 h1, h2, h3 { line-height: 1.2; }
 h1 { font-size: 1.7em; }
 h2 { font-size: 1.2em; }
-h1 {
-    margin-bottom: 0;
-}
 
 a, a:visited {
     color: #00529B;
@@ -81,7 +78,8 @@ footer {
     text-align: right;
 }
 
-#main-article-meta, #list-article-meta { font-size: 0.8em; }
+.main-article h1 { margin-bottom: 0; }
+.main-article-meta, .list-article-meta, .list-publication-meta { font-size: 0.8em; }
 
 figcaption { font-size: 0.8em; }
 figure > * {
@@ -129,11 +127,14 @@ figure > * {
 
 /* List */
 
-article.list-article {
+article.list-article, article.list-publication {
     border: 1px solid rgba(170, 170, 170, 0.51);
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-article.list-article .padded { padding: 0 15px; }
-article.list-article h2 { margin-bottom: 0; }
-article.list-article .description { margin-top: 5px; }
+article.list-article .padded, article.list-publication .padded { padding: 0 15px 10px 15px; }
+article.list-article h2, article.list-publication h2 { margin-bottom: 0; }
+article.list-article .description, article.list-publication .description {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
