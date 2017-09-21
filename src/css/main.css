@@ -38,7 +38,10 @@ table thead th, table tbody td {
     padding: 10px;
 }
 
-pre { white-space: pre-wrap; }
+pre {
+    white-space: pre-wrap;
+    overflow: auto;
+}
 
 header {
     background-color: #00529B;
@@ -137,4 +140,39 @@ article.list-article h2, article.list-publication h2 { margin-bottom: 0; }
 article.list-article .description, article.list-publication .description {
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+@media (max-width: 936px) {
+    header .container {
+        display: block;
+        text-align: center;
+    }
+    #logo {
+        position: relative;
+    }
+    nav a, nav a:visited {
+        margin: 0;
+        padding: 0 0.35em 0 0.35em;
+    }
+
+    #home-hero-main {
+        display: block;
+    }
+    #home-hero-photo img {
+        display: block;
+        margin: auto;
+        width: 30vw;
+    }
+    #home-hero-heading {
+        text-align: center;
+    }
+    #home-hero-name h1 {
+        font-size: 3em;
+    }
+    #home-hero-contact {
+        display: block;
+    }
+    .contact-col {
+        margin: auto;
+    }
 }

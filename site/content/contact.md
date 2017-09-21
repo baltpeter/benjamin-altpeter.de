@@ -12,8 +12,8 @@ Germany
 
 ## Contact me
 
-Phone (mobile): +49 176 913 77 604  
-Fax: +49 531 615 4 288  
+Phone (mobile): +49&nbsp;176&nbsp;913&nbsp;77&nbsp;604  
+Fax: +49&nbsp;531&nbsp;615&nbsp;4&nbsp;288  
 Mail: hi@bn.al ([GPG key](https://keybase.io/baltpeter))
 
 **Responsible according to § 55.2 of German RStV:**  
