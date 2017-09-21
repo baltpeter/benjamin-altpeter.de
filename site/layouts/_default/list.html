@@ -1,8 +1,7 @@
 {{ partial "header" . }}
 
 <main>
-    {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
+    {{ range .Paginator.Pages }}
     {{ partial "summary.html" . }}
     {{ end }}
     {{ partial "pagination.html" . }}
