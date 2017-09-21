@@ -7,18 +7,18 @@
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"/>
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}"/>
     {{ .Hugo.Generator }}
 </head>
 <body>
 <header>
     <div class="container">
-        <div id="logo"><a href="{{ .Site.BaseURL }}">Benjamin Altpeter</a></div>
+        <div id="logo"><a href="{{ "/" | absURL }}">Benjamin Altpeter</a></div>
         <nav>
             <div id="menu-items">
-                <a href="{{ .Site.BaseURL }}">Home</a>
-                <a href="{{ .Site.BaseURL }}post">Blog</a>
-                <a href="{{ .Site.BaseURL }}contact">Contact</a>
+                <a href="{{ "/" | absURL }}">Home</a>
+                <a href="{{ "post" | absURL }}">Blog</a>
+                <a href="{{ "contact" | absURL }}">Contact</a>
             </div>
         </nav>
     </div>

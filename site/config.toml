@@ -1,5 +1,4 @@
-#baseurl = "https://beta.benjamin-altpeter.de/"
-baseurl = "http://localhost:3000/"
+baseurl = "https://beta.benjamin-altpeter.de"
 languageCode = "de-de"
 title = "Benjamin Altpeter"
 disableKinds = ["taxonomy", "taxonomyTerm"]

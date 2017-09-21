@@ -1,7 +1,6 @@
 +++
 title = "Contact"
 static = true
-type = "post"
 +++
 
 ## Information according to § 5 of German TMG
