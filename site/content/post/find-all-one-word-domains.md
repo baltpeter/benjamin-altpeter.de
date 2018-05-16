@@ -1,6 +1,7 @@
 ---
 title: "Scanning the web for ALL available French one-word domains"
 date: 2014-10-25T20:51:00+02:00
+last_edited: 2018-05-16T21:39:55+02:00
 description: In this article I present an approach to generate a list of all available one-word domains in any language. Some filters (like word class) can be applied.
 featured_image: /img/domainchecker.png
 tags: ["all words", "availability", "domain", "french", "language", "nouns"]
@@ -72,9 +73,7 @@ This solution would be easy to implement in PHP via a socket connection, but the
 function checkdomain($domain) {
     $api_req = file_get_contents('http://freedomainapi.com/?key=YOURAPIKEY&domain=' . $domain);
     $api_req = json_decode($api_req, true);
-    if($api_req['available'] == 'true') return true;
-    
-    return false;
+    return $api_req['available'] == 'true';
 }
 {{< / highlight >}}
 
