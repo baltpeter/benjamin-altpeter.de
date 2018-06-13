@@ -3,7 +3,7 @@ title = "Privacy policy"
 static = true
 +++
 
-This privacy policy was last changed on May 24, 2018.
+This privacy policy was last changed on June 14, 2018. All changes to it are public, you can review them over at <a href="https://github.com/baltpeter/benjamin-altpeter.de/commits/master/site/content/privacy.md">GitHub</a>.
 
 ## General remarks
 
@@ -16,7 +16,7 @@ In this privacy policy, I would like to explain to you what data I collect and w
 
 ### Scope
 
-This privacy policy applies to [benjamin-altpeter.de](https://benjamin-altpeter.de/), Benjamin Altpeter's personal website.
+This privacy policy applies to [benjamin-altpeter.de](https://benjamin-altpeter.de/), Benjamin Altpeter's personal website and [cdn.baltpeter.io](https://cdn.baltpeter.io), the domain Benjamin Altpeter uses for hosting various static files and assets.
 
 ### Controller and contact information
 
