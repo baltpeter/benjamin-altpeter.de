@@ -1,0 +1,8 @@
+# Canonicalize URLs
+http://bn.al/*	https://benjamin-altpeter.de/:splat 301!
+http://www.bn.al/*	https://benjamin-altpeter.de/:splat 301!
+https://bn.al/*	https://benjamin-altpeter.de/:splat 301!
+https://www.bn.al/*	https://benjamin-altpeter.de/:splat 301!
+
+http://www.benjamin-altpeter.de/*	https://benjamin-altpeter.de/:splat 301!
+https://www.benjamin-altpeter.de/*	https://benjamin-altpeter.de/:splat 301!
