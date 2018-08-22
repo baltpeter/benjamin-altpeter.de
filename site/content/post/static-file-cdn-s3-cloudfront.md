@@ -1,6 +1,5 @@
 ---
 title: "Setting up a (CORS-ready) CDN for static files with Amazon S3 and CloudFront"
-slug: "static-file-cdn-s3-cloudfront"
 date: 2018-08-22T03:30:31+02:00
 description: "In this post, we will setup a fast and reliable, yet cheap CDN for static files using AWS’s S3 and CloudFront. We will also properly configure CORS."
 tags: ["aws", "cloudfront", "s3", "static file cdn", "cors"]
@@ -9,7 +8,8 @@ tags: ["aws", "cloudfront", "s3", "static file cdn", "cors"]
 With [AWS](https://aws.amazon.com/)’s [S3](https://aws.amazon.com/s3/) and [CloudFront](https://aws.amazon.com/cloudfront/), you can quickly setup a personal static file CDN that is very reliable and fast while only costing negligble amounts of money in most situations.  
 However, whenever setting up a new domain, I find myself going through a number of tutorials and doing a fair bit of trial-and-error to get the configuration (especially regarding CORS) right, so I decided to finally do my own write-up for future reference.
 
-This post will assume that you have at least some prior knowledge of AWS and not go into too much explaining of what we are doing, rather focussing on the caveats of what to watch out for.
+This post will assume that you have at least some prior knowledge of AWS and not go into too much explaining of what we are doing, rather focussing on the caveats of what to watch out for.  
+I will setup a static file CDN for [datarequests.org](https://www.datarequests.org), a project I am currently working on with a friend of mine, whereby we want to help you exercise your rights under the GDPR.
 
 ## Setting up the S3 bucket
 
@@ -63,7 +63,7 @@ You can also set `<AllowedOrigin>*</AllowedOrigin>` which would allow origins bu
 
 Once you have finalized your CORS configuration, click “Save”.
 
-## Certificate Manager
+## Requesting a certificate in Certificate Manager
 
 Next up, we will need to request a certificate for our CDN domain using Certificate Manager, so go into that tool. On the start page, select “Get started” under “Provision certificates”. Next, select “Request a public certificate”.
 
@@ -73,7 +73,7 @@ Add all domains (and subdomains) you want to have included in the certificate. T
 
 Finally, verify the domains either via DNS or email. Wait until the certificate is issued before you proceed to the next step.
 
-## CloudFront
+## Setting up the CloudFront distribution
 
 Now, we can create a CloudFront distribution for our bucket. Go into CloudFront and select “Create distribution”, then select “Web”.
 
@@ -96,11 +96,11 @@ Then, add your desired domain name under “Alternate domain names (CNAMEs)”. 
 
 Under “SSL certificate”, select “Custom SSL Certificate (example.com)” and choose the certificate you requested in the previous step from the dropdown.
 
-Under “Default Root object”, enter the same value you used for S3, probably `index.html`.
+Under “Default root object”, enter the same value you used for S3, probably `index.html`.
 
 Finally, click “Create distribution”. That process will take a while but you can continue with the next step in the meantime.
 
-## DNS
+## Configuring the DNS settings
 
 We now need to point our CDN domain to the CloudFront distribution. To stay with AWS, you could use [Route 53](https://aws.amazon.com/route53/) for DNS but I find that option too pricey.  
 Whatever DNS provider you choose, set the *CNAME* (or *ALIAS*) record for your CDN domain to the domain name shown in the list of your CloudFront distributions (for me, that is `d3fl6fsjbw98pw.cloudfront.net`).
