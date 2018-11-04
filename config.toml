@@ -1,5 +1,5 @@
 baseurl = "https://benjamin-altpeter.de"
-languageCode = "de-de"
+languageCode = "en"
 title = "Benjamin Altpeter"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLs = true

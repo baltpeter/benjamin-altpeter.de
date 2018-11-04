@@ -1,9 +1,7 @@
-node_modules/
-dist/
+public
 tmp/
 tmp.*
 npm-debug.log
-public
 
 ## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 /*.iml
