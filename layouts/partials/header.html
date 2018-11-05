@@ -8,6 +8,7 @@
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}"/>
+    <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}"/>
     <link rel="canonical" href="{{ .Permalink }}">
     {{ .Hugo.Generator }}
 </head>

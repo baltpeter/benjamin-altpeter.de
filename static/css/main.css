@@ -8,15 +8,28 @@ body {
     background-color: #f8f8f8;
 }
 
-h1, h2, h3 { line-height: 1.2; }
-h1 { font-size: 1.7em; }
-h2 { font-size: 1.2em; }
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+h1 {
+    font-size: 1.7em;
+}
+h2 {
+    font-size: 1.2em;
+}
 
-a, a:visited {
-    color: #00529B;
+a,
+a:visited {
+    color: #00529b;
     text-decoration: none;
 }
-a:hover, a:active, a:focus { color: #007ed7; }
+a:hover,
+a:active,
+a:focus {
+    color: #007ed7;
+}
 
 .container {
     width: 80vw;
@@ -24,7 +37,9 @@ a:hover, a:active, a:focus { color: #007ed7; }
     margin: auto;
 }
 
-img { max-width: 100%; }
+img {
+    max-width: 100%;
+}
 img.image {
     display: block;
     margin: auto;
@@ -34,7 +49,8 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-table thead th, table tbody td {
+table thead th,
+table tbody td {
     padding: 10px;
 }
 
@@ -44,7 +60,7 @@ pre {
 }
 
 header {
-    background-color: #00529B;
+    background-color: #00529b;
     color: #ffffff;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 
@@ -67,11 +83,16 @@ header .container {
     color: #fff;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
-nav a, nav a:visited {
+nav a,
+nav a:visited {
     margin-left: 0.75em;
-    color: #BDE5F8;
+    color: #bde5f8;
 }
-nav a:hover, nav a:active, nav a:focus { color: #8eb0c1; }
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: #8eb0c1;
+}
 
 footer {
     border-top: 1px solid rgba(186, 186, 186, 0.51);
@@ -80,10 +101,18 @@ footer {
     font-size: 0.9em;
 }
 
-.main-article h1 { margin-bottom: 0; }
-.main-article-meta, .list-article-meta, .list-publication-meta { font-size: 0.8em; }
+.main-article h1 {
+    margin-bottom: 0;
+}
+.main-article-meta,
+.list-article-meta,
+.list-publication-meta {
+    font-size: 0.8em;
+}
 
-figcaption { font-size: 0.8em; }
+figcaption {
+    font-size: 0.8em;
+}
 figure > * {
     display: block;
     margin: auto;
@@ -100,8 +129,12 @@ figure > * {
 
     padding: 20px;
 }
-#home-hero-photo { line-height: 1; }
-#home-hero-photo img { border-radius: 50%; }
+#home-hero-photo {
+    line-height: 1;
+}
+#home-hero-photo img {
+    border-radius: 50%;
+}
 #home-hero-name h1 {
     font-size: 3.5em;
     font-weight: normal;
@@ -109,7 +142,9 @@ figure > * {
     padding-bottom: 15px;
     margin: 0;
 }
-#home-hero-bio { margin-left: 5px; }
+#home-hero-bio {
+    margin-left: 5px;
+}
 
 #home-hero-contact {
     display: grid;
@@ -129,16 +164,41 @@ figure > * {
 
 /* List */
 
-article.list-article, article.list-publication {
+article.list-article,
+article.list-publication {
     border: 1px solid rgba(170, 170, 170, 0.51);
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-article.list-article .padded, article.list-publication .padded { padding: 0 15px 10px 15px; }
-article.list-article h2, article.list-publication h2 { margin-bottom: 0; }
-article.list-article .description, article.list-publication .description {
+article.list-article .padded,
+article.list-publication .padded {
+    padding: 0 15px 10px 15px;
+}
+article.list-article h2,
+article.list-publication h2 {
+    margin-bottom: 0;
+}
+article.list-article .description,
+article.list-publication .description {
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+/* Syntax highlighting */
+code {
+    color: #f8f8f2;
+    background-color: #272822;
+    padding: 3px;
+    font-size: 0.9em;
+    border-radius: 2px;
+}
+pre code {
+    padding: 0; /* Don't indent the first line of `pre`s (which contain `code`s). */
+}
+
+.chroma {
+    padding: 10px;
+    border-radius: 2px;
 }
 
 @media (max-width: 936px) {
@@ -149,7 +209,8 @@ article.list-article .description, article.list-publication .description {
     #logo {
         position: relative;
     }
-    nav a, nav a:visited {
+    nav a,
+    nav a:visited {
         margin: 0;
         padding: 0 0.35em 0 0.35em;
     }

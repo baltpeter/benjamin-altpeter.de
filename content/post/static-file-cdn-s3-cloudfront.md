@@ -1,6 +1,7 @@
 ---
 title: "Setting up a (CORS-ready) CDN for static files with Amazon S3 and CloudFront"
 date: 2018-08-22T03:30:31+02:00
+last_edited: 2018-11-05T00:25:34+02:00
 description: "In this post, we will setup a fast and reliable, yet cheap CDN for static files using AWS’s S3 and CloudFront. We will also properly configure CORS."
 tags: ["aws", "cloudfront", "s3", "static file cdn", "cors"]
 ---
@@ -13,7 +14,7 @@ I will setup a static file CDN for [datarequests.org](https://www.datarequests.o
 
 ## Setting up the S3 bucket
 
-First we need to configure the S3 bucket where we will actually store the files we want to server.
+First we need to configure the S3 bucket where we will actually store the files we want to serve.
 
 ### Creating a bucket
 
@@ -39,7 +40,7 @@ Click on “Static website hosting” and select ”Use this bucket to host a we
 
 ### Configuring CORS
 
-If you want to be able to include certain files (like fonts, for example) in websites on different domains then your CDN domain, you need to configure [Cross-origin resource sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (CORS).
+If you want to be able to include certain files (like fonts, for example) in websites on different domains than your CDN domain, you need to configure [Cross-origin resource sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (CORS).
 
 {{< img src="/img/static-file-cdn-s3-cloudfront/cors-policy.png" caption="Our CORS policy" >}}
 
@@ -59,7 +60,7 @@ To do so, go into the “Permissions” tab and select “CORS configuration”.
 ```
 
 For each website include a new `<AllowedOrigin>` tag. Note that a website includes both the scheme (i.e. *HTTP* or *HTTPS*) and the subdomain, so be sure to include a separate entry for each configuration you want to support. If you want to test your test your CDN locally, also include origins for your local webserver (like `http://localhost` or `http://10.0.0.5:1313`).  
-You can also set `<AllowedOrigin>*</AllowedOrigin>` which would allow origins but be aware that this will also allow third-party sites to include assets from your CDN, costing you bandwidth.
+You can also set `<AllowedOrigin>*</AllowedOrigin>` which would allow all origins but be aware that this will also allow third-party sites to include assets from your CDN, costing you bandwidth.
 
 Once you have finalized your CORS configuration, click “Save”.
 
@@ -84,9 +85,9 @@ Feel free to pick a more readable origin ID than the one that Amazon generates a
 
 Of course, we want to be a good website citizen, so select “Redirect HTTP to HTTPS” under “Viewer protocol policy”.
 
-{{< img src="/img/static-file-cdn-s3-cloudfront/adding-domains.png" caption="The cache behaviour settings for our CloudFront distribution" >}}
+{{< img src="/img/static-file-cdn-s3-cloudfront/cloudfront-cache-behaviour.png" caption="The cache behaviour settings for our CloudFront distribution" >}}
 
-These next two steps are easy to miss but important in order for CORS to work properly. Under “Allowed HTTP methods”, select “GET, HEAD, OPTIONS” as *OPTIONS* requests are used for CORS. In addition, we also need the *Options* header, so select “Whitelist” for “Cache based on selected request headers” and then add the “Options” header to the list that appears below.
+These next two steps are easy to miss but important in order for CORS to work properly. In the “Default cache behavior settings” under “Allowed HTTP methods”, select “GET, HEAD, OPTIONS” as *OPTIONS* requests are used for CORS. In addition, we also need the *Options* header, so select “Whitelist” for “Cache based on selected request headers” and then add the “Options” header to the list that appears below.
 
 If you want to, you can enable “Compress objects automatically”.
 
@@ -113,6 +114,6 @@ And that's all there is in terms of setup. As soon as the CloudFront distributio
 
 When uploading files to your bucket, make sure to grant public read access to the objects if you want them to be accessible from the web, otherwise they will just show a 403 error.
 
-If you want to, you can upload custom `index.html` and `error.html` documents in the root of your bucket that will be shown to users when they visit your bare CDN domain or get an error respectively.
+If you want to, you can upload custom `index.html` and `error.html` documents in the root of your bucket that will be shown to users when they visit your bare CDN domain or get an error, respectively.
 
-Enjoy your new CDN. I hope this post was helpful to you.
+I hope this post was helpful to you. Enjoy your new CDN!

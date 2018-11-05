@@ -4,8 +4,8 @@ title = "Benjamin Altpeter"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 canonifyURLs = true
 PygmentsCodeFences = true
-pygmentsstyle = "default"
 pygmentsCodeFencesGuessSyntax = true
+pygmentsUseClasses = true
 
 [permalinks]
     post = "/:title/"
