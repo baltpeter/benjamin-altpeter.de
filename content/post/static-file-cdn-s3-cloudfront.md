@@ -87,7 +87,7 @@ Of course, we want to be a good website citizen, so select “Redirect HTTP to H
 
 {{< img src="/img/static-file-cdn-s3-cloudfront/cloudfront-cache-behaviour.png" caption="The cache behaviour settings for our CloudFront distribution" >}}
 
-These next two steps are easy to miss but important in order for CORS to work properly. In the “Default cache behavior settings” under “Allowed HTTP methods”, select “GET, HEAD, OPTIONS” as *OPTIONS* requests are used for CORS. In addition, we also need the *Options* header, so select “Whitelist” for “Cache based on selected request headers” and then add the “Options” header to the list that appears below.
+These next two steps are easy to miss but important in order for CORS to work properly. In the “Default cache behavior settings” under “Allowed HTTP methods”, select “GET, HEAD, OPTIONS” as *OPTIONS* requests are used for CORS. In addition, we also need the *Options* header, so select “Whitelist” for “Cache based on selected request headers” and then add the “Origin” header to the list that appears below.
 
 If you want to, you can enable “Compress objects automatically”.
 
