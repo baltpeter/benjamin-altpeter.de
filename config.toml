@@ -8,4 +8,4 @@ pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = true
 
 [permalinks]
-    post = "/:title/"
+    post = "/:slug/"

@@ -167,6 +167,7 @@ figure > * {
 article.list-article,
 article.list-publication {
     border: 1px solid rgba(170, 170, 170, 0.51);
+    border-radius: 6px;
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -235,4 +236,28 @@ pre code {
     .contact-col {
         margin: auto;
     }
+}
+
+/* Alerts/boxes */
+
+.box {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+}
+.warning {
+    color: #9f6000;
+    background-color: #feefb3;
+}
+.info {
+    color: #00529b;
+    background-color: #c9eaf9;
+}
+.success {
+    color: #4f8a10;
+    background-color: #dff2bf;
+}
+.error {
+    color: #d8000c;
+    background-color: #ffbaba;
 }

@@ -4,6 +4,8 @@ date: 2018-08-22T03:30:31+02:00
 last_edited: 2018-11-05T00:25:34+02:00
 description: "In this post, we will setup a fast and reliable, yet cheap CDN for static files using AWS’s S3 and CloudFront. We will also properly configure CORS."
 tags: ["aws", "cloudfront", "s3", "static file cdn", "cors"]
+slug: "static-file-cdn-s3-cloudfront"
+aliases: ["setting-up-a-cors-ready-cdn-for-static-files-with-amazon-s3-and-cloudfront"]
 ---
 
 With [AWS](https://aws.amazon.com/)’s [S3](https://aws.amazon.com/s3/) and [CloudFront](https://aws.amazon.com/cloudfront/), you can quickly setup a personal static file CDN that is very reliable and fast while only costing negligble amounts of money in most situations.  

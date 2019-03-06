@@ -3,6 +3,8 @@ title: "Backup Mac OS X Mavericks to AFP share on Debian with Time Machine"
 date: 2014-07-20T17:56:34+02:00
 description: Configure your Mac running Mavericks to backup using Time Machine to a Debian or Ubuntu server with an AFP share.
 featured_image: /img/timemachine.png
+slug: "backup-mavericks-afp-share-debian-time-machine"
+aliases: ["backup-mac-os-x-mavericks-to-afp-share-on-debian-with-time-machine"]
 tags: ["afp", "apple filing protocol", "mac", "mavericks", "samba", "smb", "time machine"]
 ---
 
