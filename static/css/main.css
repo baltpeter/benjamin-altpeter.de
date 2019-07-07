@@ -3,7 +3,7 @@ body {
     padding: 0;
     line-height: 1.6;
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Bitstream Charter', serif;
     color: #333;
     background-color: #f8f8f8;
 }
