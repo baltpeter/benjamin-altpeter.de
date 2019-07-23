@@ -16,7 +16,11 @@ In this privacy policy, I would like to explain to you what data I collect and w
 
 ### Scope
 
-This privacy policy applies to [benjamin-altpeter.de](https://benjamin-altpeter.de/), Benjamin Altpeter's personal website and [cdn.baltpeter.io](https://cdn.baltpeter.io), the domain Benjamin Altpeter uses for hosting various static files and assets.
+This privacy policy applies to:
+
+* [benjamin-altpeter.de](https://benjamin-altpeter.de/), my personal website
+* [docs.benjamin-altpeter.de](https://docs.benjamin-altpeter.de/), my personal docs archive
+* [cdn.baltpeter.io](https://cdn.baltpeter.io), the domain I use for hosting various static files and assets
 
 ### Controller and contact information
 
