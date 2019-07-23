@@ -3,7 +3,7 @@ title = "Privacy policy"
 static = true
 +++
 
-This privacy policy was last changed on July 23, 2019. All changes to it are public, you can review them over at <a href="https://github.com/baltpeter/benjamin-altpeter.de/commits/master/site/content/privacy.md">GitHub</a>.
+This privacy policy was last changed on July 23, 2019. All changes to it are public, you can review them over at [GitHub](https://github.com/baltpeter/benjamin-altpeter.de/commits/master/content/privacy.md).
 
 ## General remarks
 
