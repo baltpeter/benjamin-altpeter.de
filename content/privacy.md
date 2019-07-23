@@ -3,7 +3,7 @@ title = "Privacy policy"
 static = true
 +++
 
-This privacy policy was last changed on June 14, 2018. All changes to it are public, you can review them over at <a href="https://github.com/baltpeter/benjamin-altpeter.de/commits/master/site/content/privacy.md">GitHub</a>.
+This privacy policy was last changed on July 23, 2019. All changes to it are public, you can review them over at <a href="https://github.com/baltpeter/benjamin-altpeter.de/commits/master/site/content/privacy.md">GitHub</a>.
 
 ## General remarks
 
@@ -55,9 +55,12 @@ In this section I would like to explain to you exactly under which circumstances
 #### Server log files
 When you visit my website, your browser automatically connects to a server run by Netlify, 610 22nd Street, Suite 315, San Francisco CA 94107, USA. This server will store some information about the connection in a so-called log file. I have no access to these log files. To find out more about how Netlify processes your data, have a look at their [privacy policy](https://www.netlify.com/privacy/).
 
-- Affected data: the specific page you visited, the date and time of your visit, the origin of your request (the so-called “referrer”), information about your browser and operating system (the so-called “user-agent string”) and your IP address
-- Lawful basis: The data is stored on the basis of Netlify's legitimate interest in improving the stability and functionality of their servers in accordance with Art. 6(1) lit. f GDPR.
-- Duration of storage: 30 days
+In addition to that, some parts of the websites are requested from servers run by Amazon Web Services EMEA SARL, 5 rue Plaetis, L-2338 Luxembourg, Luxembourg (the authorized representative of Amazon Web Services, Inc., 410 Terry Avenue North, Seattle, WA 98109, USA in the European economic area). These servers may collect aggregated statistics on how the services are used. While I have access to these statistics, I cannot influence whether or how they are collected.  
+Amazon Web Services, Inc. is certified under the US-European “Privacy Shield” framework, which ensures that the EU data protection level is maintained, through [Amazon.com, Inc.](https://www.privacyshield.gov/participant?id=a2zt000000001K2AAI) For more information on how Amazon Web Services processes your data, please refer to their [data privacy FAQ](https://aws.amazon.com/compliance/data-privacy-faq/).
+
+- Affected data: the specific page you visited, the date and time of your visit, the origin of your request (the so-called “referrer”), information about your browser and operating system (the so-called “user-agent string”), your country and your IP address
+- Lawful basis: The data is stored on the basis of my (and my hosting partners’) legitimate interest in improving the stability and functionality of the servers in use in accordance with Art. 6(1) lit. f GDPR.
+- Duration of storage: 30 days for Netlify; 60 days for Amazon Web Services
 
 ### Data you provide to me
 
