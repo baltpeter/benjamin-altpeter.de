@@ -1,0 +1,9 @@
+{
+    "title": "yace—yet another comment engine",
+    "type": "software",
+    "date": "Oct 2018 – current",
+    "license": "MIT License",
+    "featured_image": "/img/projects/yace.png",
+    "description": "yace aims to provide a comment engine that can be easily deployed to AWS using Terraform.\n\nIt is simple both in terms of the code that powers it and the APIs it provides. It can easily be integrated into existing websites and is ideal for static websites, making almost no assumptions about the structure of the website. The frontend can be entirely customized as it only provides a simple API for submitting and retrieving comments. In addition, yace sets the focus on privacy, collecting no unnecessary data about the user.",
+    "link": "https://github.com/baltpeter/yace"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Datenanfragen.de / datarequests.org",
+    "date": "Mar 2018 – current",
+    "coauthors": "[Lorenz Sieben](https://lorenz-sieben.com)",
+    "featured_image": "/img/projects/datenanfragen.png",
+    "description": "A project with the mission of helping people exercise their right to privacy. Through our website, we offer a generator for GDPR requests as well as access to our company and supervisory authority database and comprehensive articles on the GDPR and privacy in general.\n\nTo manage the project, we have founded *Datenanfragen.de e.&nbsp;V.*, a registered non-profit in Germany. I am currently a chairman for that association.",
+    "link": "https://www.datarequests.org/",
+    "footer": "[Website code](https://github.com/datenanfragen/website) &bull; [Data repository](https://github.com/datenanfragen/data) &bull; [Other repositories](https://github.com/datenanfragen) &bull; [Datenanfragen.de e.&nbsp;V.](https://verein.datenanfragen.de/en/)"
+}

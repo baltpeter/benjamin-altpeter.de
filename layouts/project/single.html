@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<main>
+    <h1>Projects</h1>
+
+    {{ .Content }}
+    {{ range sort $.Site.Data.projects "" "desc" }}
+    {{ partial "project.html" . }}
+    {{ end }}
+</main>
+
+{{ partial "footer" . }}

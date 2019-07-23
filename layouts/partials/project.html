@@ -1,0 +1,28 @@
+<article class="list-project">
+    {{ if .featured_image }}
+    {{ if .link }}<a href="{{ .link | absURL }}">{{ end }}<img class="image" src="{{ .featured_image | absURL }}"
+            alt="{{ .title }}" title="{{ .title }}">{{ if .link }}</a>{{ end }}
+    {{ end }}
+    <div class="padded" style="position: relative;">
+        {{ if .link }}<a href="{{ .link | absURL }}">{{ end }}<h2>{{ .title }}{{ if .language }}
+                ({{ .language }}){{ end }}</h2>{{ if .link }}</a>{{ end }}
+        <aside class="list-project-meta">
+            <span class="meta-date"><time>{{ .date }}</time></span>
+            {{ if .type }} &bull; {{ .type }}{{ end }}
+            {{ if .coauthors }} &bull; in collaboration with {{ .coauthors | markdownify }}{{ end }}
+            {{ if .license }} &bull; {{ .license }}{{ end }}
+        </aside>
+        <div class="description">
+            {{ if .description }}
+            {{ .description | markdownify }}
+            {{ end }}
+        </div>
+    </div>
+    {{ with .footer }}
+    <aside class="list-project-footer">
+        <div class="padded">
+            {{ . | markdownify }}
+        </div>
+    </aside>
+    {{ end }}
+</article>

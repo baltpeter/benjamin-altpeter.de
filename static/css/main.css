@@ -106,7 +106,7 @@ footer {
 }
 .main-article-meta,
 .list-article-meta,
-.list-publication-meta {
+.list-project-meta {
     font-size: 0.8em;
 }
 
@@ -165,24 +165,30 @@ figure > * {
 /* List */
 
 article.list-article,
-article.list-publication {
+article.list-project {
     border: 1px solid rgba(170, 170, 170, 0.51);
     border-radius: 6px;
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 article.list-article .padded,
-article.list-publication .padded {
-    padding: 0 15px 10px 15px;
+article.list-project .padded {
+    padding: 0 20px 10px 20px;
 }
 article.list-article h2,
-article.list-publication h2 {
+article.list-project h2 {
     margin-bottom: 0;
 }
 article.list-article .description,
-article.list-publication .description {
+article.list-project .description {
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+.list-project-footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgba(170, 170, 170, 0.21);
 }
 
 /* Syntax highlighting */
