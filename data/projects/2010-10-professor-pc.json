@@ -1,0 +1,10 @@
+{
+    "title": "Professor PC",
+    "type": "website",
+    "date": "Aug 2010 – Sep 2017",
+    "language": "German",
+    "license": "CC BY 4.0",
+    "description": "This was one of my first projects: A tech blog with an accompanying YouTube channel. Over the course of seven years, I published various posts and videos.\n\nWith time, my focus shifted to different projects and I stopped updating Professor PC. So in late 2017, I decided to end the project. The website is now in an archived status with most posts still being online but not indexed by search engines anymore. While the original website was built first on Joomla and later WordPress, for the archive I moved to a nice efficient static site built with Hugo.",
+    "link": "https://prof-pc.de/",
+    "footer": "[Code for the archive website](https://github.com/baltpeter/prof-pc.de)"
+}
