@@ -167,9 +167,10 @@ figure > * {
 article.list-article,
 article.list-project {
     border: 1px solid rgba(170, 170, 170, 0.51);
-    border-radius: 6px;
+    border-radius: 5px;
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 article.list-article .padded,
 article.list-project .padded {
