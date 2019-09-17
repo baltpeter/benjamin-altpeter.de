@@ -1,0 +1,10 @@
+{
+    "title": "Contrastor for Windows",
+    "type": "software",
+    "date": "Sep 2019",
+    "license": "MIT License",
+    "featured_image": "/img/projects/contrastor-windows.png",
+    "description": "Checking color contrast ratios is an integral part of making sure your designs are accessible. Constrator is simple contrast ratio checker that lives in your Windows system tray, aiming to make the process as simple as possible.",
+    "link": "https://github.com/baltpeter/contrastor-windows/",
+    "footer": "[Download](https://github.com/baltpeter/contrastor-windows/releases/latest)"
+}
