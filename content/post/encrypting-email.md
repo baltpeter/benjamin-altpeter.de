@@ -69,8 +69,8 @@ public key you downloaded is not compromised. For example, a hacker might gain a
 able to read the emails you encrypt for that key.
 
 There are several ways of verify the integrity of my public key. One of them is just sending me an email. I will then provide you with further
-information on how to prove you actually have the right way. If you are looking for a quick and easy way and are willing to trust a third-party,
-you can take a look at my [Keybase profile](https://keybase.io/baltpeter).
+information on how to prove you actually have the right way. ~~If you are looking for a quick and easy way and are willing to trust a third-party,
+you can take a look at my [Keybase profile](https://keybase.io/baltpeter).~~
 
 As a last thing, I would like to note that neither of these methods is entirely secure, either. If you really want to make sure you have my
 key, you will, unfortunately, have to talk to me in person…
