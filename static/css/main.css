@@ -45,6 +45,10 @@ img.image {
     margin: auto;
 }
 
+video {
+    max-width: 100%;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;

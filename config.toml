@@ -9,3 +9,6 @@ pygmentsUseClasses = true
 
 [permalinks]
     post = "/:slug/"
+
+[markup.goldmark.renderer]
+    unsafe = true
