@@ -9,7 +9,7 @@ featured_image: /img/jitsi-meet-electron-rce-shell-openexternal.png
 
 [Jitsi Meet](https://jitsi.org/) is an open source video conferencing software that organizations can deploy on their own servers and that is frequently recommended as an alternative to proprietary solutions. [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron) is the official desktop client implemented using Electron that can be used both with the official [`meet.jit.si`](https://meet.jit.si/) server as well as any third-party instance.
 
-For my bachelor's thesis, I manually analysed a couple popular Electron apps for security vulnerabilities. I discovered multiple vulnerabilities, including the remote code execution vulnerability in Jitsi Meet Electron described in this post. [CVE-2020-25019](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25019) was assigned to this issue.
+For my bachelor's thesis, I manually analysed a couple of popular Electron apps for security vulnerabilities. I discovered multiple vulnerabilities, including the remote code execution vulnerability in Jitsi Meet Electron described in this post. [CVE-2020-25019](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25019) was assigned to this issue.
 
 First, I scanned the apps with the help of a [modified](https://github.com/baltpeter/en-ba) version of the great [Electronegativity](https://github.com/doyensec/electronegativity) by Doyensec. The results from the scan revealed the following use of Electron's `shell.openExternal()` function (code from [here](https://github.com/jitsi/jitsi-meet-electron/blob/7b2b0c4e710bb626b9d886bb8c283357b223c23b/main.js#L209-L216)):
 

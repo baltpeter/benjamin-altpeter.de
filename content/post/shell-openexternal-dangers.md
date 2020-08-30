@@ -2,7 +2,7 @@
 title: "The dangers of Electron's shell.openExternal()—many paths to remote code execution"
 slug: "shell-openexternal-dangers"
 date: 2020-08-29T17:27:08+02:00
-description: "Passing user-controlled input to Electron's shell.openExternal() function is commonly warned against for security reason. But what are the actual possible attacks in this scenario? This post introduces some potential attacks."
+description: "Passing user-controlled input to Electron's shell.openExternal() function is commonly warned against for security reasons. But what are the actual possible attacks in this scenario? This post introduces some potential attacks."
 tags: ["electron", "shell.openExternal()", "remote code execution", "IT security"]
 featured_image: /img/shell-openexternal-dangers.png
 ---
