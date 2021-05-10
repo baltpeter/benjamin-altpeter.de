@@ -6,3 +6,7 @@ https://www.bn.al/*	https://benjamin-altpeter.de/:splat 301!
 
 http://www.benjamin-altpeter.de/*	https://benjamin-altpeter.de/:splat 301!
 https://www.benjamin-altpeter.de/*	https://benjamin-altpeter.de/:splat 301!
+
+# Short URLs
+/android-privacy	https://benjamin-altpeter.de/doc/presentation-android-privacy.pdf 301!
+/thesis-electron	https://benjamin-altpeter.de/doc/thesis-electron.pdf 301!
