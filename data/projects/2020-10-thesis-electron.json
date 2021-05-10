@@ -1,0 +1,9 @@
+{
+    "title": "An Analysis of the State of Electron Security in the Wild",
+    "type": "bachelor’s thesis",
+    "date": "May 2020 – Jul 2020",
+    "license": "CC BY 4.0 (thesis), MIT License (source code)",
+    "description": "Electron applications require new security considerations and a widened threat model: While web applications are strictly isolated from the operating system, Electron apps can be given full access to the Node.js APIs. Thus, many of the well-known attack vectors of the web still apply to Electron applications, but they may be a lot more severe given full access to the system.\n\nMy bachelor’s thesis explores known attacks for Electron apps. It also presents an analysis of 1,204 open and closed source Electron applications for various security indicators to give an insight into the state of Electron security in the wild. The results show that while the situation is improving with more developers becoming aware of the necessary security considerations and secure defaults starting to be introduced, many apps don't take advantage of Electron's security features and use of dangerous functions is common.",
+    "link": "/doc/thesis-electron.pdf",
+    "footer": "[Thesis PDF](/doc/bookshelf.pdf) &bull; [Source code](https://github.com/baltpeter/thesis-electron-analysis-src)"
+}

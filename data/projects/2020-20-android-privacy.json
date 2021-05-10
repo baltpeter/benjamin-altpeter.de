@@ -1,0 +1,9 @@
+{
+    "title": "Automated analysis of Android apps for privacy violations",
+    "type": "university research project",
+    "date": "Oct 2020 – Mar 2021",
+    "coauthors": "Malte Wessels",
+    "license": "CC BY 4.0",
+    "description": "To get a grasp of how common and extensive data collection in Android apps really is, Malte and I developed a series of scripts to download, install and start Android apps in an emulator and to collect and analyse their network traffic. HTTPS-encrypted traffic is also considered and certificate pinning is circumvented.\n\nIn total, we analysed 1,296 popular apps. The apps were run for 60 seconds without any user input, meaning that no consent was given. We found that a large fraction of apps still transmits telemetry data, including device details (model, settings, battery status, etc.), sensor data, events (which pages are opened and buttons are clicked), or even the geolocation and which data is entered in the app, to third-party servers.  \nThe presentation also gives an insight into why this is problematic from a legal perspective under the GDPR.",
+    "link": "/doc/presentation-android-privacy.pdf"
+}
