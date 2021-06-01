@@ -16,7 +16,7 @@ Phone (mobile): +49&nbsp;176&nbsp;913&nbsp;77&nbsp;604
 Fax: +49&nbsp;531&nbsp;615&nbsp;4&nbsp;288  
 Mail: hi@bn.al ([PGP key](https://benjamin-altpeter.de/00EB2372.asc))
 
-**Responsible according to § 55.2 of German RStV:**  
+**Responsible according to § 18(2) of German MStV:**  
 Benjamin Altpeter, Schreinerweg 6, 38126 Braunschweig, Germany
 
 ## Licenses

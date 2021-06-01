@@ -3,7 +3,7 @@ title = "Privacy policy"
 static = true
 +++
 
-This privacy policy was last changed on July 23, 2019. All changes to it are public, you can review them over at [GitHub](https://github.com/baltpeter/benjamin-altpeter.de/commits/master/content/privacy.md).
+This privacy policy was last changed on June 1, 2021. All changes to it are public, you can review them over at [GitHub](https://github.com/baltpeter/benjamin-altpeter.de/commits/master/content/privacy.md).
 
 ## General remarks
 
@@ -21,6 +21,8 @@ This privacy policy applies to:
 * [benjamin-altpeter.de](https://benjamin-altpeter.de/), my personal website
 * [docs.benjamin-altpeter.de](https://docs.benjamin-altpeter.de/), my personal docs archive
 * [cdn.baltpeter.io](https://cdn.baltpeter.io), the domain I use for hosting various static files and assets
+* [apt.altpeter.me](https://apt.altpeter.me/), my APT repository
+* all subdomains under the `bn.al` domain, which I use for various projects
 
 ### Controller and contact information
 
@@ -56,15 +58,15 @@ In this section I would like to explain to you exactly under which circumstances
 
 ### Data I collect automatically
 
-#### Server log files
-When you visit my website, your browser automatically connects to a server run by Netlify, 610 22nd Street, Suite 315, San Francisco CA 94107, USA. This server will store some information about the connection in a so-called log file. I have no access to these log files. To find out more about how Netlify processes your data, have a look at their [privacy policy](https://www.netlify.com/privacy/).
+#### Server connection data
 
-In addition to that, some parts of the websites are requested from servers run by Amazon Web Services EMEA SARL, 5 rue Plaetis, L-2338 Luxembourg, Luxembourg (the authorized representative of Amazon Web Services, Inc., 410 Terry Avenue North, Seattle, WA 98109, USA in the European economic area). These servers may collect aggregated statistics on how the services are used. While I have access to these statistics, I cannot influence whether or how they are collected.  
-Amazon Web Services, Inc. is certified under the US-European “Privacy Shield” framework, which ensures that the EU data protection level is maintained, through [Amazon.com, Inc.](https://www.privacyshield.gov/participant?id=a2zt000000001K2AAI) For more information on how Amazon Web Services processes your data, please refer to their [data privacy FAQ](https://aws.amazon.com/compliance/data-privacy-faq/).
+When you visit one of my websites, your browser connnects to one or more of my servers. I have configured all my servers not to save log files, but I do need to process some data in memory for a short while to serve your request.
 
-- Affected data: the specific page you visited, the date and time of your visit, the origin of your request (the so-called “referrer”), information about your browser and operating system (the so-called “user-agent string”), your country and your IP address
-- Lawful basis: The data is stored on the basis of my (and my hosting partners’) legitimate interest in improving the stability and functionality of the servers in use in accordance with Art. 6(1) lit. f GDPR.
-- Duration of storage: 30 days for Netlify; 60 days for Amazon Web Services
+- Affected data: the specific page you visited, the date and time of your visit, the data your browser sends with the request (the so-called “headers”), including information about your browser and operating system (the so-called “user-agent string”), and your IP address
+- Lawful basis: The brief processing of this data is necessary to offer my websites to you, it is based on Art. 6(1) lit. b GDPR.
+- Duration of storage: none
+- Data disclosure: My servers are operated by the following companies:
+    * Hetzner Online GmbH, Industriestraße 25, 91710 Gunzenhausen, Germany ([privacy policy](https://www.hetzner.com/rechtliches/datenschutz))
 
 ### Data you provide to me
 
