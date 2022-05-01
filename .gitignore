@@ -17,6 +17,7 @@ out/
 
 ## Hugo
 public/
+.hugo_build.lock
 
 ### Linux ###
 *~
