@@ -6,5 +6,6 @@
     "license": "MIT License",
     "featured_image": "/img/projects/fractal.png",
     "description": "As a fun little exercise to better understand how fractals (in particular [Julia fractals](https://en.wikipedia.org/wiki/Julia_set#Quadratic_polynomials)) work, Lorenz and I implemented a simple renderer in Qt.  \nThe code is deliberately kept simple and doesn't implement any optimizations other than painting in a background thread.",
-    "link": "https://github.com/Raabeschule/fractal"
+    "link": "https://github.com/Raabeschule/fractal",
+    "footer": "[Source code](https://github.com/Raabeschule/fractal)"
 }

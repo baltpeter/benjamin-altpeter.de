@@ -7,5 +7,5 @@
     "featured_image": "/img/projects/standardkontenrahmen.png",
     "description": "Out of my own need, I created this simple static website that acts as a reference for Standardkontenrahmen (accounting templates for German businesses and non-profits), offering an Algolia-powered search engine for SKR&nbsp;03, SKR&nbsp;04 and SKR&nbsp;49. As accounting templates tend to be very comprehensive, it can be difficult to find the correct account. This project aims to make that process easier.\n\nThe data is taken from the GnuCash project. This XML data is then converted to JSON for Algolia.",
     "link": "https://www.standardkontenrahmen.de/",
-    "footer": "[Code](https://github.com/baltpeter/standardkontenrahmen.de) &bull; [Scripts for preparing the data](https://github.com/baltpeter/skr-json)"
+    "footer": "[Website](https://www.standardkontenrahmen.de/) &bull; [Source code](https://github.com/baltpeter/standardkontenrahmen.de) &bull; [Scripts for preparing the data](https://github.com/baltpeter/skr-json)"
 }

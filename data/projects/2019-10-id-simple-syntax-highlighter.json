@@ -6,5 +6,5 @@
     "featured_image": "/img/projects/id-simple-syntax-highlighter.png",
     "description": "Code snippets on displays are usually shown using syntax highlighting to make reading and understanding them easier. Thus, it would make sense to apply the same treatment to code snippets in books and other print documents. Unfortunately, Adobe InDesign doesn't come with such a feature.\n\nThis script aims to provide a primitive means of applying syntax highlighting to code snippets in InDesign documents. It is basically a port of Lars Jung's [lolight](https://larsjung.de/lolight/) for InDesign.",
     "link": "https://github.com/baltpeter/id-simple-syntax-highlighter/",
-    "footer": "[Download](https://github.com/baltpeter/id-simple-syntax-highlighter/archive/master.zip)"
+    "footer": "[Source code](https://github.com/baltpeter/id-simple-syntax-highlighter/) &bull; [Download](https://github.com/baltpeter/id-simple-syntax-highlighter/archive/master.zip)"
 }

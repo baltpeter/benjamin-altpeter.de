@@ -5,5 +5,6 @@
     "language": "German",
     "license": "CC BY 4.0",
     "description": "This paper explores direct-to-consumer DNA testing services with a focus on how that data can be used for custom training and diet plans. It explains in which ways the human genome can provide useful insight for such questions and how such companies are able to provide genotyping services cheaply.",
-    "link": "/doc/personalisierte-genanalyse.pdf"
+    "link": "/doc/personalisierte-genanalyse.pdf",
+    "footer": "[Seminar paper PDF](/doc/personalisierte-genanalyse.pdf) (German)"
 }

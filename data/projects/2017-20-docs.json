@@ -5,5 +5,5 @@
     "license": "CC BY 4.0",
     "description": "My personal docs archive for various topics. These are mostly kept for myself but as I think that some of the entries could also be useful for others, I have decided to publish them.\n\nThe docs themselves are written in Markdown and then compiled into a static website using Hugo.",
     "link": "https://docs.benjamin-altpeter.de/",
-    "footer": "[Code for the website and content sources](https://github.com/baltpeter/docs)"
+    "footer": "[Website](https://docs.benjamin-altpeter.de/) &bull; [Source code and content](https://github.com/baltpeter/docs)"
 }

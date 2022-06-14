@@ -5,5 +5,5 @@
     "license": "MIT License",
     "description": "A simple PHP wrapper for the Internetmarke web service by Deutsche Post. It allows ordering stamps from the German postal service directly from PHP applications.",
     "link": "https://github.com/baltpeter/internetmarke-php",
-    "footer": "[Documentation](https://github.com/baltpeter/internetmarke-php/wiki/Examples)"
+    "footer": "[Source code](https://github.com/baltpeter/internetmarke-php) &bull; [Documentation](https://github.com/baltpeter/internetmarke-php/wiki/Examples)"
 }
