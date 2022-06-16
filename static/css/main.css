@@ -148,6 +148,8 @@ figure > * {
 }
 #home-hero-bio {
     margin-left: 5px;
+    text-align: justify;
+    hyphens: auto;
 }
 
 #home-hero-contact {
