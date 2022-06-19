@@ -3,7 +3,7 @@
 <main>
     <h1>Blog posts</h1>
 
-    {{ range .Paginator.Pages }}
+    {{ range (.Paginate (where .Pages "Params.unlisted" "!=" true)).Pages }}
     {{ partial "summary.html" . }}
     {{ end }}
     {{ partial "pagination.html" . }}

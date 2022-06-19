@@ -5,6 +5,7 @@ last_edited: 2017-09-21T00:58:55+02:00
 description: This article describes how and why to encrypt email. It contains my public key so you can exchange encrypted mail with me.
 featured_image: /img/encrypting_mail.png
 tags: ["email", "encryption", "gnupg", "gpg", "openpgp", "pgp"]
+unlisted: true
 ---
 
 ## Introduction
