@@ -30,6 +30,17 @@ a:active,
 a:focus {
     color: #007ed7;
 }
+.info a,
+.info a:visited {
+    color: #002241;
+    text-decoration: underline;
+}
+.info a:hover,
+.info a:active,
+.info a:focus {
+    color: #000407;
+    text-decoration: none;
+}
 
 .container {
     width: 80vw;
@@ -254,9 +265,15 @@ pre code {
 /* Alerts/boxes */
 
 .box {
-    margin: 10px 0;
-    padding: 12px;
+    margin: 1em 0;
+    padding: 1em;
     border-radius: 5px;
+}
+.box p:first-of-type {
+    margin-top: 0;
+}
+.box p:last-of-type {
+    margin-bottom: 0;
 }
 .warning {
     color: #9f6000;
