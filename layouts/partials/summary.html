@@ -7,7 +7,7 @@
         <aside class="list-article-meta">{{ if not .Params.static }}Published: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ end }}</aside>
         <p class="description">
             {{ if .Description }}
-                {{ .Description }}
+                {{ .Description | markdownify }}
             {{ else }}
                 {{ .Summary }}
                 {{ if .Truncated }}
