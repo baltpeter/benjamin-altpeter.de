@@ -1,28 +1,26 @@
 <article class="list-project">
     {{ if .featured_image }}
-    {{ if .link }}<a href="{{ .link | absURL }}">{{ end }}<img class="image" src="{{ .featured_image | absURL }}"
-            alt="{{ .title }}" title="{{ .title }}">{{ if .link }}</a>{{ end }}
+        {{ with .link }}<a class="no-link-decoration" href="{{ . | absURL }}">{{ end }}<img class="image" src="{{ .featured_image | absURL }}" alt="{{ .title }}" title="{{ .title }}">{{ if .link }}</a>{{ end }}
     {{ end }}
     <div class="padded" style="position: relative;">
-        {{ if .link }}<a href="{{ .link | absURL }}">{{ end }}<h2>{{ .title }}{{ if .language }}
-                ({{ .language }}){{ end }}</h2>{{ if .link }}</a>{{ end }}
+        <h2>{{ with .link }}<a href="{{ . | absURL }}">{{ end }}{{ .title }}{{ if .link }}</a>{{ end }}{{ with .language }} ({{ . }}){{ end }}</h2>
         <aside class="list-project-meta">
             <span class="meta-date"><time>{{ .date }}</time></span>
-            {{ if .type }} &bull; {{ .type }}{{ end }}
-            {{ if .coauthors }} &bull; in collaboration with {{ .coauthors | markdownify }}{{ end }}
-            {{ if .license }} &bull; {{ .license }}{{ end }}
+            {{ with .type }} &bull; {{ . }}{{ end }}
+            {{ with .coauthors }} &bull; in collaboration with {{ . | markdownify }}{{ end }}
+            {{ with .license }} &bull; {{ . }}{{ end }}
         </aside>
         <div class="description">
-            {{ if .description }}
-            {{ .description | markdownify }}
+            {{ with .description }}
+                {{ . | markdownify }}
             {{ end }}
         </div>
     </div>
     {{ with .footer }}
-    <aside class="list-project-footer">
-        <div class="padded">
-            {{ . | markdownify }}
-        </div>
-    </aside>
+        <aside class="list-project-footer">
+            <div class="padded">
+                {{ . | markdownify }}
+            </div>
+        </aside>
     {{ end }}
 </article>

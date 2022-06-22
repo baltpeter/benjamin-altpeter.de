@@ -2,10 +2,10 @@
 
 <article class="list-article">
     {{ if .Params.featured_image }}
-        <a href="{{ $link }}"><img class="image" src="{{ .Params.featured_image }}" alt="{{ .Title }}"></a>
+        <a class="no-link-decoration" href="{{ $link }}"><img class="image" src="{{ .Params.featured_image }}" alt="{{ .Title }}"></a>
     {{ end }}
     <div class="padded">
-        <a href="{{ $link }}"><h2>{{ .Title }}</h2></a>
+        <h2><a href="{{ $link }}">{{ .Title }}</a></h2>
         {{ if not .Params.static }}<aside class="list-article-meta">Published: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ with .Params.external_site }} at <em>{{ . }}</em>{{ end }}</aside>{{ end }}
         <p class="description">
             {{ if .Description }}
