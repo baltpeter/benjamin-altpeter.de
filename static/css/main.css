@@ -276,18 +276,18 @@ pre code {
     margin-bottom: 0;
 }
 .warning {
-    color: #9f6000;
-    background-color: #feefb3;
+    color: #613a00;
+    background-color: #fef2c3;
 }
 .info {
-    color: #00529b;
-    background-color: #c9eaf9;
+    color: #002e57;
+    background-color: #daf1fb;
 }
 .success {
-    color: #4f8a10;
-    background-color: #dff2bf;
+    color: #2c4d00;
+    background-color: #e8f6d0;
 }
 .error {
-    color: #d8000c;
-    background-color: #ffbaba;
+    color: #3d0003;
+    background-color: #ffc7c7;
 }
