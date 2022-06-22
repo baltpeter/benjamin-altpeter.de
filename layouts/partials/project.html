@@ -1,10 +1,10 @@
-<article class="list-project">
+<article class="list-article">
     {{ if .featured_image }}
         {{ with .link }}<a class="no-link-decoration" href="{{ . | absURL }}">{{ end }}<img class="image" src="{{ .featured_image | absURL }}" alt="{{ .title }}" title="{{ .title }}">{{ if .link }}</a>{{ end }}
     {{ end }}
     <div class="padded" style="position: relative;">
         <h2>{{ with .link }}<a href="{{ . | absURL }}">{{ end }}{{ .title }}{{ if .link }}</a>{{ end }}{{ with .language }} ({{ . }}){{ end }}</h2>
-        <aside class="list-project-meta">
+        <aside class="list-article-meta">
             <span class="meta-date"><time>{{ .date }}</time></span>
             {{ with .type }} &bull; {{ . }}{{ end }}
             {{ with .coauthors }} &bull; in collaboration with {{ . | markdownify }}{{ end }}
@@ -17,7 +17,7 @@
         </div>
     </div>
     {{ with .footer }}
-        <aside class="list-project-footer">
+        <aside class="list-article-footer">
             <div class="padded">
                 {{ . | markdownify }}
             </div>

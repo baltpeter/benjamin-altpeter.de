@@ -133,8 +133,7 @@ footer {
     margin-bottom: 0;
 }
 .main-article-meta,
-.list-article-meta,
-.list-project-meta {
+.list-article-meta {
     font-size: 0.8em;
 }
 
@@ -194,29 +193,30 @@ figure > * {
 
 /* List */
 
-article.list-article,
-article.list-project {
+article.list-article {
     border: 1px solid rgba(170, 170, 170, 0.51);
     border-radius: 5px;
     margin-bottom: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-article.list-article .padded,
-article.list-project .padded {
+article.list-article .padded {
     padding: 0 20px 10px 20px;
 }
-article.list-article h2,
-article.list-project h2 {
+article.list-article .padded p:first-of-type {
+    margin-top: 0;
+}
+article.list-article .padded p:last-of-type {
     margin-bottom: 0;
 }
-article.list-article .description,
-article.list-project .description {
-    margin-top: 5px;
+article.list-article h2 {
     margin-bottom: 0;
 }
-
-.list-project-footer {
+article.list-article .description {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.list-article-footer {
     margin-top: 10px;
     padding-top: 10px;
     background-color: rgba(170, 170, 170, 0.21);
