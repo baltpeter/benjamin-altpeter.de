@@ -9,6 +9,10 @@ aliases: ["setting-up-a-cors-ready-cdn-for-static-files-with-amazon-s3-and-cloud
 unlisted: true
 ---
 
+<div class="box error">
+    <strong>Note:</strong> Amazon is a bad company and I don’t want to support them. I am only keeping this post online for archival reasons. We have long switched datarequests.org to alternative solutions and I strongly encourage you to do the same.
+</div>
+
 With [AWS](https://aws.amazon.com/)’s [S3](https://aws.amazon.com/s3/) and [CloudFront](https://aws.amazon.com/cloudfront/), you can quickly setup a personal static file CDN that is very reliable and fast while only costing negligble amounts of money in most situations.  
 However, whenever setting up a new domain, I find myself going through a number of tutorials and doing a fair bit of trial-and-error to get the configuration (especially regarding CORS) right, so I decided to finally do my own write-up for future reference.
 
