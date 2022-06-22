@@ -10,6 +10,9 @@
         </aside>
 
         <div id="main-article-content" class="content">
+            {{ if .Params.external }}
+                This post was published <a href="{{ .Params.external }}">{{ if .Params.external_site }}at {{ .Params.external_site }}{{ else }}elsewhere{{ end }}</a>.
+            {{ end }}
             {{ .Content }}
         </div>
     </article>

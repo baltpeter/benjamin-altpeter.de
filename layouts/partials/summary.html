@@ -1,17 +1,19 @@
+{{ $link := cond (isset .Params "external") .Params.external .Permalink }}
+
 <article class="list-article">
     {{ if .Params.featured_image }}
-        <a href="{{ .Permalink }}"><img class="image" src="{{ .Params.featured_image }}" alt="{{ .Title }}"></a>
+        <a href="{{ $link }}"><img class="image" src="{{ .Params.featured_image }}" alt="{{ .Title }}"></a>
     {{ end }}
     <div class="padded">
-        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
-        <aside class="list-article-meta">{{ if not .Params.static }}Published: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ end }}</aside>
+        <a href="{{ $link }}"><h2>{{ .Title }}</h2></a>
+        {{ if not .Params.static }}<aside class="list-article-meta">Published: <span class="meta-date"><time>{{ .Date.Format "2006-01-02T15:04" }}</time></span>{{ with .Params.external_site }} at <em>{{ . }}</em>{{ end }}</aside>{{ end }}
         <p class="description">
             {{ if .Description }}
                 {{ .Description | markdownify }}
             {{ else }}
                 {{ .Summary }}
                 {{ if .Truncated }}
-                    <a href="{{ .Permalink }}">Read more…</a>
+                    <a href="{{ $link }}">Read more…</a>
                 {{ end }}
             {{ end }}
         </p>
