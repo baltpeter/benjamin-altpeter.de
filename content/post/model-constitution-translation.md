@@ -19,6 +19,8 @@ featured_image: /img/model-constitution-translation.png
 	<strong>Note:</strong> This post contains a translation of the model constitution for a registered tax-priviledged association under German law. It wouldn't make sense to write the introduction and title for a topic like this in English, thus I have decided to keep them in German.
 </div>
 
+<div lang="de">
+
 Ich stand kürzlich vor der Aufgabe, die Satzung des [Datenanfragen.de e.&nbsp;V.](https://verein.datenanfragen.de) für dessen Webseite ins Englische zu übersetzen. Der Verein, in dessen Vorstand ich sitze, hat es sich zur Aufgabe gemacht, der Allgemeinheit bei der Ausübung ihres Rechts auf Datenschutz zu helfen. Da wir uns nicht nur an ein deutsches, sondern ein internationales Publikum richten, wollen wir natürlich eine englische Übersetzung unserer Satzung anbieten.
 
 Wir haben uns bei der Gestaltung der Satzung in großen Teilen an der [Mustersatzung für einen eingetragenen Verein](https://www.lstn.niedersachsen.de/download/37244/Mustersatzung_Vereine.pdf) vom *Landesamt für Steuern Niedersachsen* orientiert. Ich stellte jedoch fest, dass bisher noch nicht wirklich eine Musterübersetzung einer solchen Satzung zur Verfügung steht.
@@ -29,6 +31,8 @@ Die <span class="fill-in">farbig hinterlegten</span> Abschnitte müssen in jedem
 Ich stelle meine Übersetzung unter der [CC0-Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) frei zur Verfügung. Der Einfachheit halber kann sie auch direkt als [Dokument für LibreOffice oder Word](https://cdn.baltpeter.io/doc/mustersatzung-verein-englisch.odt) heruntergeladen werden.
 
 Bei Fehlern oder Verbesserungsvorschlägen freue ich mich über eine [Nachricht]({{< ref "contact" >}}).
+
+</div>
 
 ---
 
