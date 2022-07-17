@@ -6,6 +6,7 @@ canonifyURLs = true
 PygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = true
+rssLimit = 10
 
 [permalinks]
     post = "/:slug/"
