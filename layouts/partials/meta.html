@@ -1,0 +1,61 @@
+{{/* TODO: Featured image. */}}
+
+{{ $date := .Date }}
+{{ with .Params.date }}
+    {{ $date := . }}
+{{ end }}
+
+{{ $updated_date := $date }}
+{{ with .Params.last_edited }}
+    {{ $updated_date = . }}
+{{ end }}
+
+{{ $title := (printf "%s%s%s" .Title " · " .Site.Title) }}
+
+{{ $description := "" }}
+{{ if .Description }}
+    {{ $description = .Description }}
+{{ else if .IsPage }}
+    {{ $description = .Summary }}
+{{ end }}
+
+<link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ hugo.Generator }}
+
+<meta name="description" content="{{ $description }}">
+{{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Schema.org -->
+<meta itemprop="name" content="{{ $title }}">
+<meta itemprop="description" content="{{ $description }}">
+{{ with .Params.tags }}<meta itemprop="keywords" content="{{ delimit (first 6 .) ", " }}" />{{ end }}
+{{ with .Site.Params.author }}<meta itemprop="author" content="{{ . }}">{{ end }}
+<meta itemprop="datePublished" content="{{ dateFormat "2006-01-02" $date }}">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="{{ .Site.LanguageCode }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="{{ dateFormat "2006-01-02T15:04:05" $updated_date }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="article:modified_time" content="{{ dateFormat "2006-01-02T15:04:05" $updated_date }}" />
+{{ with .Params.tags }}
+    {{ range first 6 . -}}
+        <meta property="article:tag" content="{{ . }}" />
+    {{ end }}
+{{ end }}
+
+<!-- Twitter cards -->
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:site" content="@baltpeter">
+<meta name="twitter:creator" content="@baltpeter">

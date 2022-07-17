@@ -8,17 +8,15 @@
     {{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>{{ .Title }}</title>
-    {{ with .Site.Params.description }}
-    <meta name="description" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.author }}
-    <meta name="author" content="{{ . }}">{{ end }}
+    {{ partial "meta" . }}
+
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}" />
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ hugo.Generator }}
 </head>
 
 <body>
