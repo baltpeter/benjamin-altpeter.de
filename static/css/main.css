@@ -47,7 +47,7 @@ a:focus {
     color: #000407;
     text-decoration: none;
 }
-main a:not(.no-link-decoration)[href^="https://"]:not([href^="https://benjamin-altpeter.de"]):not([href^="https://docs.benjamin-altpeter.de"]):not([href^="https://cdn.baltpeter.io"]):not([href^="https://apt.altpeter.me"]):not([href^="http://localhost:"]):after
+main a:not(.no-link-decoration)[href^="https://"]:not([href^="https://benjamin-altpeter.de"]):not([href^="https://docs.benjamin-altpeter.de"]):not([href^="https://static.bn.al"]):not([href^="https://apt.altpeter.me"]):not([href^="http://localhost:"]):after
 {
     content: '';
     display: inline-block;

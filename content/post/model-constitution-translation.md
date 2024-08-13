@@ -28,7 +28,7 @@ Wir haben uns bei der Gestaltung der Satzung in großen Teilen an der [Mustersat
 Im Folgenden also meine englische Übersetzung der oben genannten Mustersatzung. Mustersatzungen von anderen Stellen sind in der Regel ähnlich, haben aber stellenweise etwas andere Struktur oder Formulierung. Hier sind – ebenso wie bei Abweichungen von der Mustersatzung – ggf. Anpassungen nötig, die sich aber im Rahmen halten sollten.  
 Die <span class="fill-in">farbig hinterlegten</span> Abschnitte müssen in jedem Fall angepasst werden.
 
-Ich stelle meine Übersetzung unter der [CC0-Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) frei zur Verfügung. Der Einfachheit halber kann sie auch direkt als [Dokument für LibreOffice oder Word](https://cdn.baltpeter.io/doc/mustersatzung-verein-englisch.odt) heruntergeladen werden.
+Ich stelle meine Übersetzung unter der [CC0-Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) frei zur Verfügung. Der Einfachheit halber kann sie auch direkt als [Dokument für LibreOffice oder Word](https://static.bn.al/doc/mustersatzung-verein-englisch.odt) heruntergeladen werden.
 
 Bei Fehlern oder Verbesserungsvorschlägen freue ich mich über eine [Nachricht]({{< ref "contact" >}}).
 

@@ -20,7 +20,7 @@ This privacy policy applies to:
 
 * [benjamin-altpeter.de](https://benjamin-altpeter.de/), my personal website
 * [docs.benjamin-altpeter.de](https://docs.benjamin-altpeter.de/), my personal docs archive
-* [cdn.baltpeter.io](https://cdn.baltpeter.io), the domain I use for hosting various static files and assets
+* [static.bn.al](https://static.bn.al), the domain I use for hosting various static files and assets
 * [apt.altpeter.me](https://apt.altpeter.me/), my APT repository
 * all subdomains under the `bn.al` domain, which I use for various projects
 
