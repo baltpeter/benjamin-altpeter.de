@@ -3,7 +3,7 @@ title = "Contact"
 static = true
 +++
 
-## Information according to § 5 of German TMG
+## Information according to § 5 of the German act implementing the DSA (DDG)
 
 Benjamin Altpeter  
 Schreinerweg 6  
